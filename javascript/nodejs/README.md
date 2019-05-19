@@ -5,7 +5,7 @@ This project stores some tutorials on Node.js.
 ## Install Node.js
 
 * [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
-* Linux: `sudo apt install nodejs`
+* Ubuntu / Linux Mint: `sudo apt install nodejs`
 
 ## Node.js documentation
 
@@ -14,4 +14,4 @@ This project stores some tutorials on Node.js.
 ## Tutorial list
 
 * [Hello World!](hello)
-* [REST Car list](car_list)
+* REST Car App (soon)
