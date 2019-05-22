@@ -13,5 +13,6 @@ This project stores some tutorials on Node.js.
 
 ## Tutorial list
 
-* [Hello World!](hello)
+* [Hello World!](1-hello-world)
+* [Hello World! (HTTP)](2-hello-world-http)
 * REST Car App (soon)
