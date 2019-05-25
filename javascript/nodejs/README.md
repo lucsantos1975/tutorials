@@ -1,20 +1,20 @@
 # Tutorials : JavaScript : Node.js
 
-## What is Node.js
+## 1) What is Node.js
 
 Node.js is an open-source runtime environment that runs JavaScript applications outside of a web browser. 
 It is built on Chrome V8 JavaScript Engine and is perfect for develop server side JavaScript applications.
 
-## How to install Node.js
+## 2) How to install Node.js
 
 * [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 * Ubuntu / Linux Mint: `sudo apt install nodejs`
 
-## Node.js documentation
+## 3) Node.js documentation
 
 * [https://nodejs.org/en/docs/](https://nodejs.org/en/docs/)
 
-## Hello World!
+## 4) Hello World!
 
 **1-hello-world/app.js**
 
@@ -25,8 +25,8 @@ function hello(name) {
 
 hello('World');
 ```
-
-How to run: `$ node hello-world`
+Go to `<your workspace>/1-hello-world/` <br/>
+Run in console: `node app`
 
 **2-hello-world-http/app.js**
 
@@ -51,9 +51,9 @@ http.createServer(function (request, response) {
 
 }).listen(3000);
 ```
-
-How to run: `$ node hello-world-http` <br/>
-In your browser: `http://localhost:3000`
+Go to `<your workspace>/2-hello-world-http/` <br/>
+Run in console: `node app` <br/>
+Open in web browser: `http://localhost:3000/`
 
 ---
 
