@@ -1,9 +1,8 @@
-/***********************************************************
-1) Create 2-hello-world-http folder
-2) Create app.js file
-3) Run in console: $ node app
-4) Open in web browser: http://localhost:8080
-***********************************************************/
+/*
+file: 2-hello-world-http/app.js
+run in console: node app
+open in web browser: http://localhost:3000
+*/
 
 const http = require('http');
 
@@ -23,4 +22,4 @@ http.createServer(function (request, response) {
     response.writeHead(404);
     response.end(http.STATUS_CODES[404]);
 
-}).listen(8080);
+}).listen(3000);
