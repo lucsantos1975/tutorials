@@ -1,7 +1,8 @@
 /*
 file: 2-hello-world-http/app.js
 run in console: node app
-open in web browser: http://localhost:3000
+open in web browser: http://localhost:3000/
+open in web browser: http://localhost:3000/abc
 */
 
 const http = require('http');
