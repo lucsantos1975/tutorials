@@ -20,7 +20,7 @@ has all pins ready to connect on a protoboard.
 
 ## 3) Create a sketch named "esp8266_ldr"
 
-```
+```cpp
 void setup() {
   pinMode(16, OUTPUT);
   pinMode(5, OUTPUT);
