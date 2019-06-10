@@ -86,5 +86,7 @@ You'll need to log out and in to this change take effect.
 
 Then, try to upload the code again to the board.
 
-![esp8266_ldr circuit diagram](esp8266_ldr_breadboard.jpg)
+![esp8266_ldr circuit diagram](esp8266_ldr/esp8266_ldr.png)
+
+![esp8266_ldr circuit on breadboard](esp8266_ldr/esp8266_ldr_breadboard.jpg)
 
