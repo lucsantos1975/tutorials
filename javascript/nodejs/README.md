@@ -69,6 +69,7 @@ Code [here](3-cars-simple-rest-api/app.js)
 Install [Postman](https://www.getpostman.com/)
 
 Go to `<your workspace>/3-cars-simple-rest-api/` <br/>
+Install library: `npm i express` <br/>
 Run in console: `node app` <br/>
 Do requests with Postman:
 
@@ -191,6 +192,16 @@ response: `HTTP 200 OK`
     "id": 7,
     "brand": "Mitsubishi",
     "model": "Pajero Full"
+}
+```
+
+request: `DELETE http://localhost:3000/api/cars/2` <br/>
+response: `HTTP 200 OK`
+```json
+{
+    "id": 2,
+    "brand": "GM",
+    "model": "Cruze"
 }
 ```
 
